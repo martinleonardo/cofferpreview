@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "cofferpreview",
+	"version": "1.0.0",
+	"name": "CofferPreview",
+	"description": "Preview Let's Do Furniture coffer inventory in item tooltip (Shift-to-preview, dynamic size)",
+	"authors": [
+		"b2mauler"
+	],
+	"contact": { },
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.b2.cofferpreview.client.CofferPreviewClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"fabric": "*",
+		"minecraft": "1.20.1"
+	},
+	"mixins": [
+		"cofferpreview.mixins.json"
+	]
+}

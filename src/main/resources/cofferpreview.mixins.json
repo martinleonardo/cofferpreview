@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.b2.cofferpreview.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ItemStackMixin",
+		"ItemStackTooltipMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
